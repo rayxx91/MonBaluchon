@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FAFA202C2694908200DBA6FA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFA202B2694908200DBA6FA /* AppDelegate.swift */; };
+		FAFA202E2694908200DBA6FA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFA202D2694908200DBA6FA /* SceneDelegate.swift */; };
+		FAFA20302694908200DBA6FA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFA202F2694908200DBA6FA /* ViewController.swift */; };
+		FAFA20332694908200DBA6FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAFA20312694908200DBA6FA /* Main.storyboard */; };
+		FAFA20352694908400DBA6FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAFA20342694908400DBA6FA /* Assets.xcassets */; };
+		FAFA20382694908400DBA6FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAFA20362694908400DBA6FA /* LaunchScreen.storyboard */; };
+		FAFA20432694908400DBA6FA /* odyseeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFA20422694908400DBA6FA /* odyseeTests.swift */; };
+		FAFA204E2694908400DBA6FA /* odyseeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFA204D2694908400DBA6FA /* odyseeUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FAFA203F2694908400DBA6FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAFA20202694908200DBA6FA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAFA20272694908200DBA6FA;
+			remoteInfo = odysee;
+		};
+		FAFA204A2694908400DBA6FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAFA20202694908200DBA6FA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAFA20272694908200DBA6FA;
+			remoteInfo = odysee;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FAFA20282694908200DBA6FA /* odysee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = odysee.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAFA202B2694908200DBA6FA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FAFA202D2694908200DBA6FA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FAFA202F2694908200DBA6FA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FAFA20322694908200DBA6FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FAFA20342694908400DBA6FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FAFA20372694908400DBA6FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FAFA20392694908400DBA6FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAFA203E2694908400DBA6FA /* odyseeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = odyseeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAFA20422694908400DBA6FA /* odyseeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = odyseeTests.swift; sourceTree = "<group>"; };
+		FAFA20442694908400DBA6FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAFA20492694908400DBA6FA /* odyseeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = odyseeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAFA204D2694908400DBA6FA /* odyseeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = odyseeUITests.swift; sourceTree = "<group>"; };
+		FAFA204F2694908400DBA6FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAFA20252694908200DBA6FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAFA203B2694908400DBA6FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAFA20462694908400DBA6FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FAFA201F2694908200DBA6FA = {
+			isa = PBXGroup;
+			children = (
+				FAFA202A2694908200DBA6FA /* odysee */,
+				FAFA20412694908400DBA6FA /* odyseeTests */,
+				FAFA204C2694908400DBA6FA /* odyseeUITests */,
+				FAFA20292694908200DBA6FA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FAFA20292694908200DBA6FA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAFA20282694908200DBA6FA /* odysee.app */,
+				FAFA203E2694908400DBA6FA /* odyseeTests.xctest */,
+				FAFA20492694908400DBA6FA /* odyseeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAFA202A2694908200DBA6FA /* odysee */ = {
+			isa = PBXGroup;
+			children = (
+				FAFA202B2694908200DBA6FA /* AppDelegate.swift */,
+				FAFA202D2694908200DBA6FA /* SceneDelegate.swift */,
+				FAFA202F2694908200DBA6FA /* ViewController.swift */,
+				FAFA20312694908200DBA6FA /* Main.storyboard */,
+				FAFA20342694908400DBA6FA /* Assets.xcassets */,
+				FAFA20362694908400DBA6FA /* LaunchScreen.storyboard */,
+				FAFA20392694908400DBA6FA /* Info.plist */,
+			);
+			path = odysee;
+			sourceTree = "<group>";
+		};
+		FAFA20412694908400DBA6FA /* odyseeTests */ = {
+			isa = PBXGroup;
+			children = (
+				FAFA20422694908400DBA6FA /* odyseeTests.swift */,
+				FAFA20442694908400DBA6FA /* Info.plist */,
+			);
+			path = odyseeTests;
+			sourceTree = "<group>";
+		};
+		FAFA204C2694908400DBA6FA /* odyseeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FAFA204D2694908400DBA6FA /* odyseeUITests.swift */,
+				FAFA204F2694908400DBA6FA /* Info.plist */,
+			);
+			path = odyseeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAFA20272694908200DBA6FA /* odysee */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAFA20522694908400DBA6FA /* Build configuration list for PBXNativeTarget "odysee" */;
+			buildPhases = (
+				FAFA20242694908200DBA6FA /* Sources */,
+				FAFA20252694908200DBA6FA /* Frameworks */,
+				FAFA20262694908200DBA6FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = odysee;
+			productName = odysee;
+			productReference = FAFA20282694908200DBA6FA /* odysee.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FAFA203D2694908400DBA6FA /* odyseeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAFA20552694908400DBA6FA /* Build configuration list for PBXNativeTarget "odyseeTests" */;
+			buildPhases = (
+				FAFA203A2694908400DBA6FA /* Sources */,
+				FAFA203B2694908400DBA6FA /* Frameworks */,
+				FAFA203C2694908400DBA6FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAFA20402694908400DBA6FA /* PBXTargetDependency */,
+			);
+			name = odyseeTests;
+			productName = odyseeTests;
+			productReference = FAFA203E2694908400DBA6FA /* odyseeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FAFA20482694908400DBA6FA /* odyseeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAFA20582694908400DBA6FA /* Build configuration list for PBXNativeTarget "odyseeUITests" */;
+			buildPhases = (
+				FAFA20452694908400DBA6FA /* Sources */,
+				FAFA20462694908400DBA6FA /* Frameworks */,
+				FAFA20472694908400DBA6FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAFA204B2694908400DBA6FA /* PBXTargetDependency */,
+			);
+			name = odyseeUITests;
+			productName = odyseeUITests;
+			productReference = FAFA20492694908400DBA6FA /* odyseeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAFA20202694908200DBA6FA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					FAFA20272694908200DBA6FA = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					FAFA203D2694908400DBA6FA = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = FAFA20272694908200DBA6FA;
+					};
+					FAFA20482694908400DBA6FA = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = FAFA20272694908200DBA6FA;
+					};
+				};
+			};
+			buildConfigurationList = FAFA20232694908200DBA6FA /* Build configuration list for PBXProject "odysee" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FAFA201F2694908200DBA6FA;
+			productRefGroup = FAFA20292694908200DBA6FA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAFA20272694908200DBA6FA /* odysee */,
+				FAFA203D2694908400DBA6FA /* odyseeTests */,
+				FAFA20482694908400DBA6FA /* odyseeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAFA20262694908200DBA6FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAFA20382694908400DBA6FA /* LaunchScreen.storyboard in Resources */,
+				FAFA20352694908400DBA6FA /* Assets.xcassets in Resources */,
+				FAFA20332694908200DBA6FA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAFA203C2694908400DBA6FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAFA20472694908400DBA6FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAFA20242694908200DBA6FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAFA20302694908200DBA6FA /* ViewController.swift in Sources */,
+				FAFA202C2694908200DBA6FA /* AppDelegate.swift in Sources */,
+				FAFA202E2694908200DBA6FA /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAFA203A2694908400DBA6FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAFA20432694908400DBA6FA /* odyseeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAFA20452694908400DBA6FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAFA204E2694908400DBA6FA /* odyseeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FAFA20402694908400DBA6FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAFA20272694908200DBA6FA /* odysee */;
+			targetProxy = FAFA203F2694908400DBA6FA /* PBXContainerItemProxy */;
+		};
+		FAFA204B2694908400DBA6FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAFA20272694908200DBA6FA /* odysee */;
+			targetProxy = FAFA204A2694908400DBA6FA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FAFA20312694908200DBA6FA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAFA20322694908200DBA6FA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FAFA20362694908400DBA6FA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAFA20372694908400DBA6FA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FAFA20502694908400DBA6FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FAFA20512694908400DBA6FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FAFA20532694908400DBA6FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C736Z2FTHD;
+				INFOPLIST_FILE = odysee/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Alexandre-Chaleroux.odysee";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FAFA20542694908400DBA6FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C736Z2FTHD;
+				INFOPLIST_FILE = odysee/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Alexandre-Chaleroux.odysee";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FAFA20562694908400DBA6FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C736Z2FTHD;
+				INFOPLIST_FILE = odyseeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Alexandre-Chaleroux.odyseeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/odysee.app/odysee";
+			};
+			name = Debug;
+		};
+		FAFA20572694908400DBA6FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C736Z2FTHD;
+				INFOPLIST_FILE = odyseeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Alexandre-Chaleroux.odyseeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/odysee.app/odysee";
+			};
+			name = Release;
+		};
+		FAFA20592694908400DBA6FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C736Z2FTHD;
+				INFOPLIST_FILE = odyseeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Alexandre-Chaleroux.odyseeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = odysee;
+			};
+			name = Debug;
+		};
+		FAFA205A2694908400DBA6FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C736Z2FTHD;
+				INFOPLIST_FILE = odyseeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Alexandre-Chaleroux.odyseeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = odysee;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAFA20232694908200DBA6FA /* Build configuration list for PBXProject "odysee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAFA20502694908400DBA6FA /* Debug */,
+				FAFA20512694908400DBA6FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAFA20522694908400DBA6FA /* Build configuration list for PBXNativeTarget "odysee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAFA20532694908400DBA6FA /* Debug */,
+				FAFA20542694908400DBA6FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAFA20552694908400DBA6FA /* Build configuration list for PBXNativeTarget "odyseeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAFA20562694908400DBA6FA /* Debug */,
+				FAFA20572694908400DBA6FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAFA20582694908400DBA6FA /* Build configuration list for PBXNativeTarget "odyseeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAFA20592694908400DBA6FA /* Debug */,
+				FAFA205A2694908400DBA6FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FAFA20202694908200DBA6FA /* Project object */;
+}
