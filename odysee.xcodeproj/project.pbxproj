@@ -7,12 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FA9B054F26FB255000F215CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAFA20312694908200DBA6FA /* Main.storyboard */; };
+		FA9B055126FB26EF00F215CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAFA20362694908400DBA6FA /* LaunchScreen.storyboard */; };
+		FA9B055226FB26F800F215CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAFA205B2695B64700DBA6FA /* Assets.xcassets */; };
+		FAA755692705C7AE00603C15 /* WeatherTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA755682705C7AE00603C15 /* WeatherTableViewCell.swift */; };
+		FAA7556B2705CCB800603C15 /* WeatherTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA7556A2705CCB800603C15 /* WeatherTableViewController.swift */; };
+		FAA7556D270AF06200603C15 /* ChangeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA7556C270AF06200603C15 /* ChangeViewController.swift */; };
+		FAA75581270B440400603C15 /* APIKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA75580270B440400603C15 /* APIKey.swift */; };
+		FABA622D2721699B00A89DB8 /* WeatherResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABA622C2721699B00A89DB8 /* WeatherResponse.swift */; };
+		FAE3A7DA27141DEF00820023 /* WeatherService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE3A7D927141DEF00820023 /* WeatherService.swift */; };
 		FAFA202C2694908200DBA6FA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFA202B2694908200DBA6FA /* AppDelegate.swift */; };
 		FAFA202E2694908200DBA6FA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFA202D2694908200DBA6FA /* SceneDelegate.swift */; };
-		FAFA20302694908200DBA6FA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFA202F2694908200DBA6FA /* ViewController.swift */; };
-		FAFA20332694908200DBA6FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAFA20312694908200DBA6FA /* Main.storyboard */; };
-		FAFA20352694908400DBA6FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAFA20342694908400DBA6FA /* Assets.xcassets */; };
-		FAFA20382694908400DBA6FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAFA20362694908400DBA6FA /* LaunchScreen.storyboard */; };
 		FAFA20432694908400DBA6FA /* odyseeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFA20422694908400DBA6FA /* odyseeTests.swift */; };
 		FAFA204E2694908400DBA6FA /* odyseeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFA204D2694908400DBA6FA /* odyseeUITests.swift */; };
 /* End PBXBuildFile section */
@@ -35,20 +40,25 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FA9B055326FB27DB00F215CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = odysee/Info.plist; sourceTree = "<group>"; };
+		FAA755682705C7AE00603C15 /* WeatherTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherTableViewCell.swift; sourceTree = "<group>"; };
+		FAA7556A2705CCB800603C15 /* WeatherTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherTableViewController.swift; sourceTree = "<group>"; };
+		FAA7556C270AF06200603C15 /* ChangeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeViewController.swift; sourceTree = "<group>"; };
+		FAA75580270B440400603C15 /* APIKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIKey.swift; sourceTree = "<group>"; };
+		FABA622C2721699B00A89DB8 /* WeatherResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherResponse.swift; sourceTree = "<group>"; };
+		FAE3A7D927141DEF00820023 /* WeatherService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherService.swift; sourceTree = "<group>"; };
 		FAFA20282694908200DBA6FA /* odysee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = odysee.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAFA202B2694908200DBA6FA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FAFA202D2694908200DBA6FA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		FAFA202F2694908200DBA6FA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FAFA20322694908200DBA6FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		FAFA20342694908400DBA6FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FAFA20372694908400DBA6FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		FAFA20392694908400DBA6FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FAFA203E2694908400DBA6FA /* odyseeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = odyseeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAFA20422694908400DBA6FA /* odyseeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = odyseeTests.swift; sourceTree = "<group>"; };
 		FAFA20442694908400DBA6FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FAFA20492694908400DBA6FA /* odyseeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = odyseeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAFA204D2694908400DBA6FA /* odyseeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = odyseeUITests.swift; sourceTree = "<group>"; };
 		FAFA204F2694908400DBA6FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAFA205B2695B64700DBA6FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,10 +86,64 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FAA75577270B206100603C15 /* StoryBoard */ = {
+			isa = PBXGroup;
+			children = (
+				FAFA20312694908200DBA6FA /* Main.storyboard */,
+				FAFA20362694908400DBA6FA /* LaunchScreen.storyboard */,
+			);
+			path = StoryBoard;
+			sourceTree = "<group>";
+		};
+		FAA7557F270B43F000603C15 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				FAA75580270B440400603C15 /* APIKey.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		FADFD47C26F9DD6E000954E8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FAFA202B2694908200DBA6FA /* AppDelegate.swift */,
+				FAFA202D2694908200DBA6FA /* SceneDelegate.swift */,
+				FAE3A7D927141DEF00820023 /* WeatherService.swift */,
+				FABA622C2721699B00A89DB8 /* WeatherResponse.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FADFD47D26F9DDB1000954E8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FAA755682705C7AE00603C15 /* WeatherTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FADFD48026F9DE06000954E8 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FAA7556A2705CCB800603C15 /* WeatherTableViewController.swift */,
+				FAA7556C270AF06200603C15 /* ChangeViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		FADFD48126F9DE0F000954E8 /* Other Files */ = {
+			isa = PBXGroup;
+			children = (
+				FAFA205B2695B64700DBA6FA /* Assets.xcassets */,
+			);
+			path = "Other Files";
+			sourceTree = "<group>";
+		};
 		FAFA201F2694908200DBA6FA = {
 			isa = PBXGroup;
 			children = (
 				FAFA202A2694908200DBA6FA /* odysee */,
+				FA9B055326FB27DB00F215CA /* Info.plist */,
 				FAFA20412694908400DBA6FA /* odyseeTests */,
 				FAFA204C2694908400DBA6FA /* odyseeUITests */,
 				FAFA20292694908200DBA6FA /* Products */,
@@ -99,13 +163,12 @@
 		FAFA202A2694908200DBA6FA /* odysee */ = {
 			isa = PBXGroup;
 			children = (
-				FAFA202B2694908200DBA6FA /* AppDelegate.swift */,
-				FAFA202D2694908200DBA6FA /* SceneDelegate.swift */,
-				FAFA202F2694908200DBA6FA /* ViewController.swift */,
-				FAFA20312694908200DBA6FA /* Main.storyboard */,
-				FAFA20342694908400DBA6FA /* Assets.xcassets */,
-				FAFA20362694908400DBA6FA /* LaunchScreen.storyboard */,
-				FAFA20392694908400DBA6FA /* Info.plist */,
+				FAA7557F270B43F000603C15 /* Services */,
+				FAA75577270B206100603C15 /* StoryBoard */,
+				FADFD48126F9DE0F000954E8 /* Other Files */,
+				FADFD48026F9DE06000954E8 /* Controller */,
+				FADFD47D26F9DDB1000954E8 /* View */,
+				FADFD47C26F9DD6E000954E8 /* Model */,
 			);
 			path = odysee;
 			sourceTree = "<group>";
@@ -191,7 +254,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1250;
-				LastUpgradeCheck = 1250;
+				LastUpgradeCheck = 1310;
 				TargetAttributes = {
 					FAFA20272694908200DBA6FA = {
 						CreatedOnToolsVersion = 12.5.1;
@@ -231,9 +294,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FAFA20382694908400DBA6FA /* LaunchScreen.storyboard in Resources */,
-				FAFA20352694908400DBA6FA /* Assets.xcassets in Resources */,
-				FAFA20332694908200DBA6FA /* Main.storyboard in Resources */,
+				FA9B055226FB26F800F215CA /* Assets.xcassets in Resources */,
+				FA9B055126FB26EF00F215CA /* LaunchScreen.storyboard in Resources */,
+				FA9B054F26FB255000F215CA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +321,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FAFA20302694908200DBA6FA /* ViewController.swift in Sources */,
+				FAA7556D270AF06200603C15 /* ChangeViewController.swift in Sources */,
+				FAA755692705C7AE00603C15 /* WeatherTableViewCell.swift in Sources */,
 				FAFA202C2694908200DBA6FA /* AppDelegate.swift in Sources */,
+				FAA7556B2705CCB800603C15 /* WeatherTableViewController.swift in Sources */,
+				FAA75581270B440400603C15 /* APIKey.swift in Sources */,
 				FAFA202E2694908200DBA6FA /* SceneDelegate.swift in Sources */,
+				FAE3A7DA27141DEF00820023 /* WeatherService.swift in Sources */,
+				FABA622D2721699B00A89DB8 /* WeatherResponse.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -366,7 +434,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -421,7 +489,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -439,6 +507,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = C736Z2FTHD;
 				INFOPLIST_FILE = odysee/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -458,6 +527,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = C736Z2FTHD;
 				INFOPLIST_FILE = odysee/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
