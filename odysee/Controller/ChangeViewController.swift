@@ -162,7 +162,7 @@ class ChangeViewController: UIViewController, UIPickerViewDelegate, UIPickerView
         let newCharacter = string
         
         //I create a tab of my authorized numbers
-        let listOfAcceptedCharachers: [String] = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "0", "."]
+        let listOfAcceptedCharachers: [String] = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "0", ".", ""]
         
         //Is my new character part of the accepted characters ?
         if listOfAcceptedCharachers.contains(newCharacter) {
