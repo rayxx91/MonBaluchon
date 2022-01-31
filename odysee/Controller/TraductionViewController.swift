@@ -71,7 +71,7 @@ class TraductionViewController: UIViewController {
         
         textFillTextView.layer.cornerRadius = 12
         resultTranslationTextView.layer.cornerRadius = 12
-        translateButton.setupUI(size: 16, color: .white, title: "Translate")
+        translateButton.setupUI(size: 16, color: .black, title: "Translate")
     }
     
     // MARK: IBActions
