@@ -25,6 +25,9 @@ class ChangeViewController: UIViewController, UIPickerViewDelegate, UIPickerView
     
     // MARK: Life Cycle
     
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        self.view.endEditing(true)
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -110,6 +113,7 @@ class ChangeViewController: UIViewController, UIPickerViewDelegate, UIPickerView
     
     @IBAction func exchangeButtomTapped(_ sender: UIButton) {
         
+        view.endEditing(true)
         if let numberOfcharactere = euroTextField.text?.count {
             print(numberOfcharactere)
             guard numberOfcharactere > 0 else {
