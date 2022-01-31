@@ -1,25 +1,17 @@
-
 struct Weather: Codable {
     let id: Int
-    let weatherDescription: String
-    let icon: String // main
-    let main:String
-    
-    enum CodingKeys: String, CodingKey {
-        case id
-        case main = "main"
-        case weatherDescription = "description"
-        case icon
-    }
+    let main: String
+    let description: String
+    let icon: String
 }
 
 struct Main: Codable {
     let temp: Double
-    let feels_like: Double
-    let temp_min: Double
-    let temp_max: Double
-    let pressure: Int
-    let humidity: Int
+    let feels_like: Float
+    let temp_min: Float
+    let temp_max: Float
+    let pressure: Float
+    let humidity: Float
 }
 
 struct Sys: Codable {

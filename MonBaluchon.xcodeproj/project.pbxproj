@@ -7,19 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FA9B054F26FB255000F215CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAFA20312694908200DBA6FA /* Main.storyboard */; };
+		FA38F048275FA382007FB0EE /* ErrorCases.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA38F047275FA382007FB0EE /* ErrorCases.swift */; };
+		FA38F04A275FA70D007FB0EE /* TranslateResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA38F049275FA70D007FB0EE /* TranslateResponse.swift */; };
+		FA38F04C275FAEFC007FB0EE /* TraductionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA38F04B275FAEFC007FB0EE /* TraductionViewController.swift */; };
+		FA3F8A902790486C007BB8BF /* WeatherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3F8A8F2790486B007BB8BF /* WeatherViewController.swift */; };
+		FA49BB5C27A434BA00CD3142 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA49BB5B27A434BA00CD3142 /* CustomButton.swift */; };
+		FA514B1127316412008AECB0 /* ExchangeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA514B1027316412008AECB0 /* ExchangeService.swift */; };
+		FA75040727A42A3C00A36410 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA75040627A42A3C00A36410 /* Main.storyboard */; };
 		FA9B055126FB26EF00F215CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAFA20362694908400DBA6FA /* LaunchScreen.storyboard */; };
 		FA9B055226FB26F800F215CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAFA205B2695B64700DBA6FA /* Assets.xcassets */; };
-		FAA755692705C7AE00603C15 /* WeatherTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA755682705C7AE00603C15 /* WeatherTableViewCell.swift */; };
-		FAA7556B2705CCB800603C15 /* WeatherTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA7556A2705CCB800603C15 /* WeatherTableViewController.swift */; };
 		FAA7556D270AF06200603C15 /* ChangeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA7556C270AF06200603C15 /* ChangeViewController.swift */; };
 		FAA75581270B440400603C15 /* APIKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA75580270B440400603C15 /* APIKey.swift */; };
+		FAAC0DF4274E7B87001B64D2 /* FixerResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAC0DF3274E7B87001B64D2 /* FixerResponse.swift */; };
+		FAAC0DF6275F7EBA001B64D2 /* TranslateService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAC0DF5275F7EBA001B64D2 /* TranslateService.swift */; };
 		FABA622D2721699B00A89DB8 /* WeatherResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABA622C2721699B00A89DB8 /* WeatherResponse.swift */; };
 		FAE3A7DA27141DEF00820023 /* WeatherService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE3A7D927141DEF00820023 /* WeatherService.swift */; };
+		FAECC36527999C16000F361E /* WeatherServiceTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAECC36427999C16000F361E /* WeatherServiceTestCase.swift */; };
 		FAFA202C2694908200DBA6FA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFA202B2694908200DBA6FA /* AppDelegate.swift */; };
 		FAFA202E2694908200DBA6FA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFA202D2694908200DBA6FA /* SceneDelegate.swift */; };
-		FAFA20432694908400DBA6FA /* odyseeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFA20422694908400DBA6FA /* odyseeTests.swift */; };
-		FAFA204E2694908400DBA6FA /* odyseeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFA204D2694908400DBA6FA /* odyseeUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,24 +45,27 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FA38F047275FA382007FB0EE /* ErrorCases.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorCases.swift; sourceTree = "<group>"; };
+		FA38F049275FA70D007FB0EE /* TranslateResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranslateResponse.swift; sourceTree = "<group>"; };
+		FA38F04B275FAEFC007FB0EE /* TraductionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TraductionViewController.swift; sourceTree = "<group>"; };
+		FA3F8A8F2790486B007BB8BF /* WeatherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewController.swift; sourceTree = "<group>"; };
+		FA49BB5B27A434BA00CD3142 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		FA514B1027316412008AECB0 /* ExchangeService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeService.swift; sourceTree = "<group>"; };
+		FA75040627A42A3C00A36410 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		FA9B055326FB27DB00F215CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = odysee/Info.plist; sourceTree = "<group>"; };
-		FAA755682705C7AE00603C15 /* WeatherTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherTableViewCell.swift; sourceTree = "<group>"; };
-		FAA7556A2705CCB800603C15 /* WeatherTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherTableViewController.swift; sourceTree = "<group>"; };
 		FAA7556C270AF06200603C15 /* ChangeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeViewController.swift; sourceTree = "<group>"; };
 		FAA75580270B440400603C15 /* APIKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIKey.swift; sourceTree = "<group>"; };
+		FAAC0DF3274E7B87001B64D2 /* FixerResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FixerResponse.swift; sourceTree = "<group>"; };
+		FAAC0DF5275F7EBA001B64D2 /* TranslateService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranslateService.swift; sourceTree = "<group>"; };
 		FABA622C2721699B00A89DB8 /* WeatherResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherResponse.swift; sourceTree = "<group>"; };
 		FAE3A7D927141DEF00820023 /* WeatherService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherService.swift; sourceTree = "<group>"; };
-		FAFA20282694908200DBA6FA /* odysee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = odysee.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAECC36427999C16000F361E /* WeatherServiceTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherServiceTestCase.swift; sourceTree = "<group>"; };
+		FAFA20282694908200DBA6FA /* MonBaluchon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MonBaluchon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAFA202B2694908200DBA6FA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FAFA202D2694908200DBA6FA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		FAFA20322694908200DBA6FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FAFA20372694908400DBA6FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		FAFA203E2694908400DBA6FA /* odyseeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = odyseeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		FAFA20422694908400DBA6FA /* odyseeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = odyseeTests.swift; sourceTree = "<group>"; };
-		FAFA20442694908400DBA6FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FAFA20492694908400DBA6FA /* odyseeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = odyseeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		FAFA204D2694908400DBA6FA /* odyseeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = odyseeUITests.swift; sourceTree = "<group>"; };
-		FAFA204F2694908400DBA6FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAFA203E2694908400DBA6FA /* MonBaluchonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MonBaluchonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAFA20492694908400DBA6FA /* MonBaluchonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MonBaluchonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAFA205B2695B64700DBA6FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -86,11 +94,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FA38F046275FA36C007FB0EE /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				FA38F047275FA382007FB0EE /* ErrorCases.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
 		FAA75577270B206100603C15 /* StoryBoard */ = {
 			isa = PBXGroup;
 			children = (
-				FAFA20312694908200DBA6FA /* Main.storyboard */,
 				FAFA20362694908400DBA6FA /* LaunchScreen.storyboard */,
+				FA75040627A42A3C00A36410 /* Main.storyboard */,
 			);
 			path = StoryBoard;
 			sourceTree = "<group>";
@@ -99,6 +115,9 @@
 			isa = PBXGroup;
 			children = (
 				FAA75580270B440400603C15 /* APIKey.swift */,
+				FAE3A7D927141DEF00820023 /* WeatherService.swift */,
+				FA514B1027316412008AECB0 /* ExchangeService.swift */,
+				FAAC0DF5275F7EBA001B64D2 /* TranslateService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -108,25 +127,20 @@
 			children = (
 				FAFA202B2694908200DBA6FA /* AppDelegate.swift */,
 				FAFA202D2694908200DBA6FA /* SceneDelegate.swift */,
-				FAE3A7D927141DEF00820023 /* WeatherService.swift */,
 				FABA622C2721699B00A89DB8 /* WeatherResponse.swift */,
+				FAAC0DF3274E7B87001B64D2 /* FixerResponse.swift */,
+				FA38F049275FA70D007FB0EE /* TranslateResponse.swift */,
+				FA49BB5B27A434BA00CD3142 /* CustomButton.swift */,
 			);
 			path = Model;
-			sourceTree = "<group>";
-		};
-		FADFD47D26F9DDB1000954E8 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				FAA755682705C7AE00603C15 /* WeatherTableViewCell.swift */,
-			);
-			path = View;
 			sourceTree = "<group>";
 		};
 		FADFD48026F9DE06000954E8 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				FAA7556A2705CCB800603C15 /* WeatherTableViewController.swift */,
 				FAA7556C270AF06200603C15 /* ChangeViewController.swift */,
+				FA38F04B275FAEFC007FB0EE /* TraductionViewController.swift */,
+				FA3F8A8F2790486B007BB8BF /* WeatherViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -139,13 +153,20 @@
 			path = "Other Files";
 			sourceTree = "<group>";
 		};
+		FAECC363279997B2000F361E /* OdyseeTest */ = {
+			isa = PBXGroup;
+			children = (
+				FAECC36427999C16000F361E /* WeatherServiceTestCase.swift */,
+			);
+			path = OdyseeTest;
+			sourceTree = "<group>";
+		};
 		FAFA201F2694908200DBA6FA = {
 			isa = PBXGroup;
 			children = (
 				FAFA202A2694908200DBA6FA /* odysee */,
 				FA9B055326FB27DB00F215CA /* Info.plist */,
-				FAFA20412694908400DBA6FA /* odyseeTests */,
-				FAFA204C2694908400DBA6FA /* odyseeUITests */,
+				FAECC363279997B2000F361E /* OdyseeTest */,
 				FAFA20292694908200DBA6FA /* Products */,
 			);
 			sourceTree = "<group>";
@@ -153,9 +174,9 @@
 		FAFA20292694908200DBA6FA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FAFA20282694908200DBA6FA /* odysee.app */,
-				FAFA203E2694908400DBA6FA /* odyseeTests.xctest */,
-				FAFA20492694908400DBA6FA /* odyseeUITests.xctest */,
+				FAFA20282694908200DBA6FA /* MonBaluchon.app */,
+				FAFA203E2694908400DBA6FA /* MonBaluchonTests.xctest */,
+				FAFA20492694908400DBA6FA /* MonBaluchonUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -163,40 +184,22 @@
 		FAFA202A2694908200DBA6FA /* odysee */ = {
 			isa = PBXGroup;
 			children = (
+				FA38F046275FA36C007FB0EE /* Extension */,
 				FAA7557F270B43F000603C15 /* Services */,
 				FAA75577270B206100603C15 /* StoryBoard */,
 				FADFD48126F9DE0F000954E8 /* Other Files */,
 				FADFD48026F9DE06000954E8 /* Controller */,
-				FADFD47D26F9DDB1000954E8 /* View */,
 				FADFD47C26F9DD6E000954E8 /* Model */,
 			);
 			path = odysee;
 			sourceTree = "<group>";
 		};
-		FAFA20412694908400DBA6FA /* odyseeTests */ = {
-			isa = PBXGroup;
-			children = (
-				FAFA20422694908400DBA6FA /* odyseeTests.swift */,
-				FAFA20442694908400DBA6FA /* Info.plist */,
-			);
-			path = odyseeTests;
-			sourceTree = "<group>";
-		};
-		FAFA204C2694908400DBA6FA /* odyseeUITests */ = {
-			isa = PBXGroup;
-			children = (
-				FAFA204D2694908400DBA6FA /* odyseeUITests.swift */,
-				FAFA204F2694908400DBA6FA /* Info.plist */,
-			);
-			path = odyseeUITests;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		FAFA20272694908200DBA6FA /* odysee */ = {
+		FAFA20272694908200DBA6FA /* MonBaluchon */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FAFA20522694908400DBA6FA /* Build configuration list for PBXNativeTarget "odysee" */;
+			buildConfigurationList = FAFA20522694908400DBA6FA /* Build configuration list for PBXNativeTarget "MonBaluchon" */;
 			buildPhases = (
 				FAFA20242694908200DBA6FA /* Sources */,
 				FAFA20252694908200DBA6FA /* Frameworks */,
@@ -206,14 +209,14 @@
 			);
 			dependencies = (
 			);
-			name = odysee;
+			name = MonBaluchon;
 			productName = odysee;
-			productReference = FAFA20282694908200DBA6FA /* odysee.app */;
+			productReference = FAFA20282694908200DBA6FA /* MonBaluchon.app */;
 			productType = "com.apple.product-type.application";
 		};
-		FAFA203D2694908400DBA6FA /* odyseeTests */ = {
+		FAFA203D2694908400DBA6FA /* MonBaluchonTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FAFA20552694908400DBA6FA /* Build configuration list for PBXNativeTarget "odyseeTests" */;
+			buildConfigurationList = FAFA20552694908400DBA6FA /* Build configuration list for PBXNativeTarget "MonBaluchonTests" */;
 			buildPhases = (
 				FAFA203A2694908400DBA6FA /* Sources */,
 				FAFA203B2694908400DBA6FA /* Frameworks */,
@@ -224,14 +227,14 @@
 			dependencies = (
 				FAFA20402694908400DBA6FA /* PBXTargetDependency */,
 			);
-			name = odyseeTests;
+			name = MonBaluchonTests;
 			productName = odyseeTests;
-			productReference = FAFA203E2694908400DBA6FA /* odyseeTests.xctest */;
+			productReference = FAFA203E2694908400DBA6FA /* MonBaluchonTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		FAFA20482694908400DBA6FA /* odyseeUITests */ = {
+		FAFA20482694908400DBA6FA /* MonBaluchonUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FAFA20582694908400DBA6FA /* Build configuration list for PBXNativeTarget "odyseeUITests" */;
+			buildConfigurationList = FAFA20582694908400DBA6FA /* Build configuration list for PBXNativeTarget "MonBaluchonUITests" */;
 			buildPhases = (
 				FAFA20452694908400DBA6FA /* Sources */,
 				FAFA20462694908400DBA6FA /* Frameworks */,
@@ -242,9 +245,9 @@
 			dependencies = (
 				FAFA204B2694908400DBA6FA /* PBXTargetDependency */,
 			);
-			name = odyseeUITests;
+			name = MonBaluchonUITests;
 			productName = odyseeUITests;
-			productReference = FAFA20492694908400DBA6FA /* odyseeUITests.xctest */;
+			productReference = FAFA20492694908400DBA6FA /* MonBaluchonUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -261,6 +264,7 @@
 					};
 					FAFA203D2694908400DBA6FA = {
 						CreatedOnToolsVersion = 12.5.1;
+						LastSwiftMigration = 1320;
 						TestTargetID = FAFA20272694908200DBA6FA;
 					};
 					FAFA20482694908400DBA6FA = {
@@ -269,7 +273,7 @@
 					};
 				};
 			};
-			buildConfigurationList = FAFA20232694908200DBA6FA /* Build configuration list for PBXProject "odysee" */;
+			buildConfigurationList = FAFA20232694908200DBA6FA /* Build configuration list for PBXProject "MonBaluchon" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -282,9 +286,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FAFA20272694908200DBA6FA /* odysee */,
-				FAFA203D2694908400DBA6FA /* odyseeTests */,
-				FAFA20482694908400DBA6FA /* odyseeUITests */,
+				FAFA20272694908200DBA6FA /* MonBaluchon */,
+				FAFA203D2694908400DBA6FA /* MonBaluchonTests */,
+				FAFA20482694908400DBA6FA /* MonBaluchonUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -294,9 +298,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA75040727A42A3C00A36410 /* Main.storyboard in Resources */,
 				FA9B055226FB26F800F215CA /* Assets.xcassets in Resources */,
 				FA9B055126FB26EF00F215CA /* LaunchScreen.storyboard in Resources */,
-				FA9B054F26FB255000F215CA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -321,14 +325,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAAC0DF6275F7EBA001B64D2 /* TranslateService.swift in Sources */,
 				FAA7556D270AF06200603C15 /* ChangeViewController.swift in Sources */,
-				FAA755692705C7AE00603C15 /* WeatherTableViewCell.swift in Sources */,
+				FA514B1127316412008AECB0 /* ExchangeService.swift in Sources */,
+				FA38F048275FA382007FB0EE /* ErrorCases.swift in Sources */,
+				FA49BB5C27A434BA00CD3142 /* CustomButton.swift in Sources */,
+				FA38F04A275FA70D007FB0EE /* TranslateResponse.swift in Sources */,
 				FAFA202C2694908200DBA6FA /* AppDelegate.swift in Sources */,
-				FAA7556B2705CCB800603C15 /* WeatherTableViewController.swift in Sources */,
 				FAA75581270B440400603C15 /* APIKey.swift in Sources */,
 				FAFA202E2694908200DBA6FA /* SceneDelegate.swift in Sources */,
 				FAE3A7DA27141DEF00820023 /* WeatherService.swift in Sources */,
 				FABA622D2721699B00A89DB8 /* WeatherResponse.swift in Sources */,
+				FA3F8A902790486C007BB8BF /* WeatherViewController.swift in Sources */,
+				FAAC0DF4274E7B87001B64D2 /* FixerResponse.swift in Sources */,
+				FA38F04C275FAEFC007FB0EE /* TraductionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -336,7 +346,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FAFA20432694908400DBA6FA /* odyseeTests.swift in Sources */,
+				FAECC36527999C16000F361E /* WeatherServiceTestCase.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -344,7 +354,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FAFA204E2694908400DBA6FA /* odyseeUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -353,25 +362,17 @@
 /* Begin PBXTargetDependency section */
 		FAFA20402694908400DBA6FA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = FAFA20272694908200DBA6FA /* odysee */;
+			target = FAFA20272694908200DBA6FA /* MonBaluchon */;
 			targetProxy = FAFA203F2694908400DBA6FA /* PBXContainerItemProxy */;
 		};
 		FAFA204B2694908400DBA6FA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = FAFA20272694908200DBA6FA /* odysee */;
+			target = FAFA20272694908200DBA6FA /* MonBaluchon */;
 			targetProxy = FAFA204A2694908400DBA6FA /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		FAFA20312694908200DBA6FA /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FAFA20322694908200DBA6FA /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		FAFA20362694908400DBA6FA /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -434,7 +435,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -489,7 +490,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -507,7 +508,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = C736Z2FTHD;
 				INFOPLIST_FILE = odysee/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -515,7 +516,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "Alexandre-Chaleroux.odysee";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -527,7 +528,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = C736Z2FTHD;
 				INFOPLIST_FILE = odysee/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -535,7 +536,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "Alexandre-Chaleroux.odysee";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -544,6 +545,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = C736Z2FTHD;
 				INFOPLIST_FILE = odyseeTests/Info.plist;
@@ -555,9 +557,10 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "Alexandre-Chaleroux.odyseeTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/odysee.app/odysee";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MonBaluchon.app/MonBaluchon";
 			};
 			name = Debug;
 		};
@@ -566,6 +569,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = C736Z2FTHD;
 				INFOPLIST_FILE = odyseeTests/Info.plist;
@@ -579,7 +583,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/odysee.app/odysee";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MonBaluchon.app/MonBaluchon";
 			};
 			name = Release;
 		};
@@ -626,7 +630,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		FAFA20232694908200DBA6FA /* Build configuration list for PBXProject "odysee" */ = {
+		FAFA20232694908200DBA6FA /* Build configuration list for PBXProject "MonBaluchon" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FAFA20502694908400DBA6FA /* Debug */,
@@ -635,7 +639,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FAFA20522694908400DBA6FA /* Build configuration list for PBXNativeTarget "odysee" */ = {
+		FAFA20522694908400DBA6FA /* Build configuration list for PBXNativeTarget "MonBaluchon" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FAFA20532694908400DBA6FA /* Debug */,
@@ -644,7 +648,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FAFA20552694908400DBA6FA /* Build configuration list for PBXNativeTarget "odyseeTests" */ = {
+		FAFA20552694908400DBA6FA /* Build configuration list for PBXNativeTarget "MonBaluchonTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FAFA20562694908400DBA6FA /* Debug */,
@@ -653,7 +657,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FAFA20582694908400DBA6FA /* Build configuration list for PBXNativeTarget "odyseeUITests" */ = {
+		FAFA20582694908400DBA6FA /* Build configuration list for PBXNativeTarget "MonBaluchonUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FAFA20592694908400DBA6FA /* Debug */,
