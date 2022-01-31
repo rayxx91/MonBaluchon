@@ -112,8 +112,9 @@ class ChangeViewController: UIViewController, UIPickerViewDelegate, UIPickerView
     }
     
     @IBAction func exchangeButtomTapped(_ sender: UIButton) {
-        
+      
         view.endEditing(true)
+      
         if let numberOfcharactere = euroTextField.text?.count {
             print(numberOfcharactere)
             guard numberOfcharactere > 0 else {
