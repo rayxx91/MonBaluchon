@@ -160,7 +160,7 @@ class ChangeViewController: UIViewController, UIPickerViewDelegate, UIPickerView
     func textField(_ textField: UITextField, shouldChangeCharactersIn range: NSRange, replacementString string: String) -> Bool {
         
         let newCharacter = string
-
+        
         //I create a tab of my authorized numbers
         let listOfAcceptedCharachers: [String] = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "0", ".", ""]
         
